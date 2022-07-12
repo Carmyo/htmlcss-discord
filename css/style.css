@@ -4,6 +4,11 @@
     padding: 0px;
 }
 
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
 /* utilities */
 .flex {
     display: flex;
@@ -17,10 +22,12 @@
 
 header {
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+
 
 }
 
-a {
+#botton {
 
     color: black;
     background-color: white;
@@ -132,29 +139,74 @@ section .even {
     margin-bottom: 50px;
 }
 
+h4 {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+#scarica-bottom {
+    color: rgb(255, 255, 255);
+    background-color: #8ea1e1;
+    border-radius: 25%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
 /*footer*/
 
 footer {
     margin-top: 80px;
-    background-color: rgb(22, 153, 29);
+    background-color: rgb(255, 255, 255);
+
 }
 
 .container {
     background-color: #23272a;
     color: white;
+    padding-top: 3rem;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+hr {
+    margin-top: 2%;
 }
 
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.text-blu {
+    color: #3161e0;
 }
 
 .logo--bottom {
     align-self: flex-start;
 }
 
-.registrati {
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+li {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#registrati {
     align-self: flex-end;
+    background-color: #8ea1e1;
+    border-radius: 25%;
+    padding: 15px;
+    margin-top: 10px;
 
 }
