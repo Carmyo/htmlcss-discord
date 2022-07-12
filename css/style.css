@@ -81,7 +81,7 @@ h1 {
 /*main*/
 
 .container--main {
-    background-color: gold;
+    background-color: rgb(255, 255, 255);
     max-width: 900px;
     margin: 0 auto;
 }
@@ -94,6 +94,15 @@ section .even {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 50px;
+}
+
+.paragrafo {
+    color: rgb(255, 255, 255);
+}
+
+.text-main {
+    color: black;
 }
 
 .pic {
