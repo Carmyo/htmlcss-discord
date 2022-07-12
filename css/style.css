@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*header*/
+
+.top {
+    background-color: blue;
+    height: 60px;
+}
+
+.center {
+    background-color: brown;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+h1 {
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.head {
+    padding-bottom: 7%;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+/*main*/
+
+.container--main {
+    background-color: gold;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section .even {
+    background-color: rgb(223, 245, 220);
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pic {
+    height: 200px;
+    width: 60px;
+    background-color: aquamarine;
+}
+
+.text {
+    height: 200px;
+    width: 60px;
+    background-color: aqua;
+}
+
+/*last section*/
+
+.last-section {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.bottom-pic {
+    color: white;
+    background-color: blue;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 80px;
+    background-color: rgb(22, 153, 29);
+}
+
+.container {
+    background-color: blueviolet;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo--bottom {
+    align-self: flex-start;
+}
+
+.registrati {
+    align-self: flex-end;
+
+}
